@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+    <layout title="Account Settings">
+        <message>
+            Display a listing of the user's mapped social networks, with the ability to link and unlink.
+        </message>
+    </layout>
+</metadata>

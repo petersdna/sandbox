@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<alphauserpoints>
+    <component>JFBConnect</component>
+    <rules>
+        <rule>
+            <name>Social Network Authentication</name>
+            <description>Award points to users when they link their Joomla account to any social network</description>
+            <action_string>jfbconnect.account.map</action_string>
+            <points>2</points>
+            <publish>true</publish>
+        </rule>
+
+        <rule>
+            <name>Facebook Comment New</name>
+            <description>Award points to users when leaving Facebook comments on your site.</description>
+            <action_string>jfbconnect.facebook.comment.create</action_string>
+            <points>2</points>
+            <publish>true</publish>
+        </rule>
+        <rule>
+            <name>Facebook Comment Delete</name>
+            <description>Remove points from users when deleting their Facebook comments.</description>
+            <action_string>jfbconnect.facebook.comment.remove</action_string>
+            <points>-2</points>
+            <publish>true</publish>
+        </rule>
+        <rule>
+            <name>Facebook Like New</name>
+            <description>Award points to users that Like pages on your site.</description>
+            <action_string>jfbconnect.facebook.like.create</action_string>
+            <points>2</points>
+            <publish>true</publish>
+        </rule>
+        <rule>
+            <name>Facebook Like Remove</name>
+            <description>Remove points to users that Unlike pages on your site.</description>
+            <action_string>jfbconnect.facebook.like.remove</action_string>
+            <points>-2</points>
+            <publish>true</publish>
+        </rule>
+        <rule>
+            <name>Facebook Friend Request Sent</name>
+            <description>Award points to users that send Facebook Requests to their friends.</description>
+            <action_string>jfbconnect.facebook.request.create</action_string>
+            <points>2</points>
+            <publish>true</publish>
+        </rule>
+        <rule>
+            <name>Google +1 Create</name>
+            <description>Award points to users that use the Google +1 button on your site.</description>
+            <action_string>jfbconnect.google.plusone.create</action_string>
+            <points>2</points>
+            <publish>true</publish>
+        </rule>
+        <rule>
+            <name>Google +1 Remove</name>
+            <description>Take away points from users that remove a Google +1 from your site.</description>
+            <action_string>jfbconnect.google.plusone.remove</action_string>
+            <points>-2</points>
+            <publish>true</publish>
+        </rule>
+        <rule>
+            <name>Share a page to LinkedIn</name>
+            <description>Award points to users that use the LinkedIn Share button on your site.</description>
+            <action_string>jfbconnect.linkedin.share.create</action_string>
+            <points>2</points>
+            <publish>true</publish>
+        </rule>
+        <rule>
+            <name>Tweet a page to your Twitter followers</name>
+            <description>Award points to users that use the Tweet button on your site.</description>
+            <action_string>jfbconnect.twitter.tweet.create</action_string>
+            <points>2</points>
+            <publish>true</publish>
+        </rule>
+    </rules>
+</alphauserpoints>

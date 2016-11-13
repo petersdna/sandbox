@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fields name="params">
+        <fields name="widget_settings">
+            <fieldset name="widget_settings">
+                <field name="href" type="text" label="COM_JFBCONNECT_WIDGET_FACEBOOK_PAGEPLUGIN_HREF_LABEL" description="COM_JFBCONNECT_WIDGET_FACEBOOK_PAGEPLUGIN_HREF_DESCRIPTION" default=""/>
+                <field name="width" type="text" label="COM_JFBCONNECT_WIDGET_FACEBOOK_WIDTH_LABEL" description="COM_JFBCONNECT_WIDGET_FACEBOOK_WIDTH_DESCRIPTION" default="292" />
+                <field name="height" type="text" label="COM_JFBCONNECT_WIDGET_FACEBOOK_HEIGHT_LABEL" description="COM_JFBCONNECT_WIDGET_FACEBOOK_HEIGHT_DESCRIPTION" default="200" />
+                <field name="tabs" type="text" label="COM_JFBCONNECT_WIDGET_FACEBOOK_PAGEPLUGIN_TABS_LABEL" description="COM_JFBCONNECT_WIDGET_FACEBOOK_PAGEPLUGIN_TABS_DESCRIPTION" default="" />
+                <field name="show_faces" type="radio" label="COM_JFBCONNECT_WIDGET_FACEBOOK_PAGEPLUGIN_SHOW_FACES_LABEL" description="COM_JFBCONNECT_WIDGET_FACEBOOK_PAGEPLUGIN_SHOW_FACES_DESCRIPTION" default="1" >
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field name="hide_cover" type="radio" label="COM_JFBCONNECT_WIDGET_FACEBOOK_PAGEPLUGIN_HIDE_COVER_PHOTO_LABEL" description="COM_JFBCONNECT_WIDGET_FACEBOOK_PAGEPLUGIN_HIDE_COVER_PHOTO_DESCRIPTION" default="1">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field name="adapt_width" type="radio" label="COM_JFBCONNECT_WIDGET_FACEBOOK_PAGEPLUGIN_ADAPT_WIDTH_LABEL" description="COM_JFBCONNECT_WIDGET_FACEBOOK_PAGEPLUGIN_ADAPT_WIDTH_DESCRIPTION" default="1">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field name="small_header" type="radio" label="COM_JFBCONNECT_WIDGET_FACEBOOK_PAGEPLUGIN_SMALL_HEADER_LABEL" description="COM_JFBCONNECT_WIDGET_FACEBOOK_PAGEPLUGIN_SMALL_HEADER_DESCRIPTION" default="0">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field name="hide_cta" type="radio" label="COM_JFBCONNECT_WIDGET_FACEBOOK_PAGEPLUGIN_HIDE_CTA_LABEL" description="COM_JFBCONNECT_WIDGET_FACEBOOK_PAGEPLUGIN_HIDE_CTA_DESCRIPTION" default="0">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+            </fieldset>
+        </fields>
+    </fields>
+</form>
