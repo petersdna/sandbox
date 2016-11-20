@@ -2374,7 +2374,8 @@ class JDHelper
         
         if (strrev($jlistConfig['com']) != $secret){
             $power = 'Powered&nbsp;by&nbsp;jDownloads';
-            $line .= '<div style="text-align:center" class="jd_footer"><a href="http://www.jDownloads.com" target="_blank" title="www.jDownloads.com">'.$power.'</a></div>';
+            //$line .= '<div style="text-align:center" class="jd_footer"><a href="http://www.jDownloads.com" target="_blank" title="www.jDownloads.com">'.$power.'</a></div>';
+			$line = '';
         }
         return $line;            
         
