@@ -390,14 +390,14 @@ return {
     appBrowse: function( pos ) {
         joms.popup.app.browse( pos );
     },
-    appPrivacy: function( name ) {
-        joms.popup.app.privacy( name );
+    appJPrivacy: function( id, name ) {
+        joms.popup.app.privacy( id, name );
     },
     appRemove: function( id ) {
         joms.popup.app.remove( id );
     },
-    appSetting: function( id, name ) {
-        joms.popup.app.setting( id, name );
+    appSetting: function( name ) {
+        joms.popup.app.setting( name );
     },
 
     /** Search. */
